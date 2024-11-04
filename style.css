@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+background-image: url(home.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: fixed;
+color: white;
+}
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+  rotate: 0deg;
+  transition: 1s;
+}
+.logo:hover{
+  scale: 1;
+  rotate: 5deg;
+  color: aqua;
+}
+
+.navbar a{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.7s;
+}
+
+.navbar a:hover{
+  color: aqua;
+  padding: px;
+  font-size: 21px;
+}
+
+.home{
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+.homecontent{
+  max-width: 600px;
+}
+.homecontent h1{
+  font-size:45px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.homecontent h3{
+  color: aqua;
+  font-size: 28px;
+  font-weight: 600;
+}
+.homecontent p{
+  font-size: 16px;
+}
+.homecontent .buttons{
+  width: 450px;
+  height: 50px;
+  margin: 20px 0 40px;
+}
+.buttons a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 70%;
+  background: aqua;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-weight: 550;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
+  transition: 0.8s;
+}
+.buttons a:nth-child(2){
+  background: aqua;
+  color: rgb(13, 13, 44);
+}
+.buttons a:nth-child(1){
+  background: transparent;
+  color: aqua;
+}
+.buttons a:nth-child(1):hover{
+color: rgb(13, 13, 44);
+background-color: aqua;
+}
+.buttons a:nth-child(2):hover{
+  color: aqua;
+  background-color: transparent;
+  }
+.media{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 80px;
+  width: 250px;
+  
+}
+
+.media a{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 2px solid aqua;
+  border-radius: 50%;
+  color: aqua;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.media a:hover{
+  color: rgb(13, 13, 44);
+  background: aqua;
+
+}
+.img{
+  position: absolute;
+  top: 0;
+  right: -800px;
+  height: 100%;
+  width: 500px;
+  background: transparent;
+  transition: 1s;
+
+}
+
+.img:hover{
+background: #081b29;
+opacity: 0.8;
+}
+
+
+

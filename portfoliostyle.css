@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+background-image: url(home.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+position: fixed;
+color: white;
+}
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+  rotate: 0deg;
+  transition: 1s;
+}
+.logo:hover{
+  scale: 1;
+  rotate: 5deg;
+  color: aqua;
+}
+
+.navbar a{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.7s;
+}
+
+.navbar a:hover{
+  color: aqua;
+  padding: px;
+  font-size: 21px;
+}
+
+.home{
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+.homecontent{
+  max-width: 600px;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+.box1{
+    height: 100vh;
+    width: 350px;
+    height: 350px;
+    margin: 50px 10px;
+    border-radius: 10px;   
+    transition: .5s; 
+}
+.box1 h3{
+    padding: 0 60px;
+    transition: 1s; 
+
+}
+.box1 img{
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+
+}
+.box1:hover{
+  background-color: rgb(54, 58, 58);
+  opacity: 0.8;
+  cursor: grab;
+  h3{
+   background-color: aliceblue;
+   color: #050728;
+   cursor: pointer;
+
+  }
+ }
+.box2{
+    height: 100vh;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: .5s; 
+}
+.box2 img{
+  margin: 10px;
+  border-radius: 20px;
+}
+.box2 h3{
+    padding: 0 80px;
+    transition: 1s; 
+
+}
+.box2:hover{
+   background-color: rgb(54, 58, 58);
+   opacity: 0.8;
+   cursor: grab;
+   h3{
+    background-color: aliceblue;
+    color: #050728;
+    cursor: pointer;
+
+   }
+  }
+.end{
+  padding: 0 50px;
+}
+  .img{
+    position: absolute;
+    top: 0;
+    right: -450px;
+    height: 120%;
+    width: 500px;
+    background: transparent;
+    transition: 1s;
+  }
+  
+  .img:hover{
+  background: #081b29;
+  opacity: 0.8;
+  }
+
+

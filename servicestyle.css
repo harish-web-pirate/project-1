@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+background-image: url(home.jpg);
+background-size: cover;
+position: fixed;
+color: white;
+}
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+  rotate: 0deg;
+  transition: 1s;
+}
+.logo:hover{
+  scale: 1;
+  rotate: 360deg;
+}
+
+.navbar a{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.7s;
+}
+
+.navbar a:hover{
+  color: aqua;
+  padding: 5px;
+}
+.head ul{
+  margin-left: 20px;
+}
+.head ul li:hover{
+  font-size: large;
+  color: aqua;
+
+}
+.home{
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+
+}
+.contact h4{
+  /* background-color: aqua; */
+  color: white;
+  margin-top: 400px;
+  padding: 10px;
+  }
+.contact h5 a{
+
+  color: aqua;
+  margin: 5px 20px 0px;
+  padding: 0px;
+  text-decoration: none;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  padding: 5px;
+}
+.contact h5 a:hover{
+  color: #081b29;
+  background-color: aqua;
+  font-size: medium;
+  transition: 1s;
+}
+.section{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.img{
+  position: absolute;
+  top: 0;
+  right: -550px;
+  height: 100%;
+  width: 500px;
+  background: transparent;
+  transition: 1s;
+}
+
+.img:hover{
+background: #081b29;
+opacity: 0.8;
+}
+
+
