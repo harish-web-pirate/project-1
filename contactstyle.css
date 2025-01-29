@@ -35,7 +35,7 @@ z-index: 100;
 }
 .logo:hover{
   scale: 1;
-  rotate: 5deg;
+  rotate: 7deg;
   color: aqua;
 }
 
